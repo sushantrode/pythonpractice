@@ -15,7 +15,7 @@ my_list = [
     -23,
     56,
     "rode",
-]  # List is a sequence data type
+]  # List is a sequence data type , it is mutable
 
 print(my_list)
 print(my_list[3])
