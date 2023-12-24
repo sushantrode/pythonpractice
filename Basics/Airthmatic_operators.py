@@ -21,3 +21,4 @@ print(f"Floor division is {z1} and its integer to lowest value")
 
 print(f"Pi Value derived using the round function {d2}")
 print(f"Value of pie derived using the var : .2f  method is : {d1:.2f}")
+print(f"Value of pie derived using the var : .2f  method is : {d1:.2f}")
