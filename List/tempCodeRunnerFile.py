@@ -1,7 +1,5 @@
-a = [5, 15,87,98,99,30,60,101,112,'sush']
-b = a[0:len(a)//2]
-c= a[len(a)//2:len(a)]
-d = a [-3:]
-print(b)
-print(c)
-print(d)
+def get_price(price):
+    return price if price > 0 else 0
+
+original_prices = [1.25, 0, 10.22, 3.78, 0, 1.16]
+prices = [get_price(i) for i in original_prices]
