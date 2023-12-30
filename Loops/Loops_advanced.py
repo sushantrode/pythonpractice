@@ -54,16 +54,30 @@ for i in range(0, 6):
     l = l + 2
     print()
 
-# OR Alternative
+# OR Alternative 1
 for i in range(1, 6):
     # add a loop for space
 
     for j in range(i, 5):
-        print(end=" ")  # Additional spaces are not required for pyramid
+        print(
+            end=" "
+        )  # Additional spaces can be added , but then we need to increase the *. look at alt 2
 
     for j in range(1, i + 1):
         print("*", end=" ")
     print()
+# OR Alternative 2
+
+for i in range(1, 6):
+    # add a loop for space adjustment
+    for j in range(i, 5):
+        print(" ", end=" ")
+    for k in range(
+        1, i * 2
+    ):  # The no of stars were increased by i*2, if loop started with 0 then (i*2-1)
+        print("*", end=" ")
+    print()
+
 
 #   reverse pyramid with **
 k = 0
